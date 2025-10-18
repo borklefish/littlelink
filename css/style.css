@@ -221,6 +221,10 @@ a:hover {
 }
 
 .filter-dark{
+	width:1.25rem;
+	height:1.25rem;
+	margin-right:0.5rem;
+	flex-shrink:0;
     filter: brightness(0) saturate(100%) invert(5%) sepia(7%) saturate(4197%) hue-rotate(273deg) brightness(96%) contrast(94%);
 }
 
