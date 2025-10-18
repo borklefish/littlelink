@@ -179,11 +179,11 @@ footer {
 /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-	color:#2457F5;
+	color:#CCAB84;
 	text-decoration:underline;
 }
 a:hover {
-	color:#083BDA;
+	color:#CCAB84;
 }
 
 /* Buttons
@@ -273,7 +273,7 @@ a:hover {
 	color:#CCAB84;
 }
 :root.theme-dark a:not(.button):hover {
-	color:#7AB8FF;
+	color:#CCAB84;
 }
 
 /* Auto theme */
