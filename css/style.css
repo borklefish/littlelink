@@ -67,7 +67,7 @@
   body {
 	margin:0;
 	padding:0;
-	background-color:#7E77BB;
+	background-color:linear-gradient(0deg, rgba(80, 75, 139, 1) 0%, rgba(126, 119, 187, 1) 100%);
 	color:#1a1a1a;
 	font-family:"Atkinson Hyperlegible Next","Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
