@@ -5,6 +5,8 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
@@ -65,9 +67,9 @@
   body {
 	margin:0;
 	padding:0;
-	background-color:#ffffff;
+	background-color:#7E77BB;
 	color:#1a1a1a;
-	font-family:"Open Sans",system-ui;
+	font-family:"Atkinson Hyperlegible Next","Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
 	line-height:1.6;
