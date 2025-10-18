@@ -218,7 +218,14 @@ a:hover {
 	height:1.25rem;
 	margin-right:0.5rem;
 	flex-shrink:0;
-	filter: brightness(0) saturate(100%) invert(4%) sepia(17%) saturate(3755%) hue-rotate(284deg) brightness(95%) contrast(92%);
+}
+
+.icon-brown {
+	width:1.25rem;
+	height:1.25rem;
+	margin-right:0.5rem;
+	flex-shrink:0;
+	filter: invert(5%) sepia(27%) saturate(1042%) hue-rotate(273deg) brightness(98%) contrast(95%);
 }
 
 /* Avatar
