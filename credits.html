@@ -7,7 +7,7 @@
   - theme-dark: Forces dark theme
 -->
 
-<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
+<html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
 
   <head>
     <meta charset="utf-8">
@@ -16,6 +16,7 @@
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
     <title>credits | borklefish 🧽</title>
     <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
+
 
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
     <meta name="description" content=".">
@@ -28,42 +29,45 @@
 
   </head>
 
-<body>
-
-    <div class="container">
-        <div class="column">
-
-            <!--
-              By default, the Avatar is rounded. Use the following:
-              - avatar--rounded: Automatically rounds the image
-              - avatar--soft: Slightly rounds the image
-              - avatar--none: Removes any rounding
-
-              Be sure to replace the src with your own image path and update the alt text
-            -->
-            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="Borklefish">
+  <body>
+    <div class="container-left" role="main">
+      <div class="column">
+        <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="LittleLink">
 
             <!-- Replace with your name or brand -->
-            <h1>
-              <div>Borklefish</div>
+            <h1 style="text-align: center;">
+              <div>borklefish</div>
             </h1>
+              
+            <p style="text-align: center;">am phrog :)</p>
 
-            <h2>
-              <div>Credits</div>
-            </h2>
+        <nav role="navigation">
+          <a href="/" aria-label="Back to homepage">← Back to main page</a>
+        </nav>
 
-            <p>pfp: <a href="https://x.com/the_frog_mage/status/1944577480385601543/" target="_blank" rel="noopener">@the_frog_mage</a></p>
-            <p>banner: <a href="https://www.philippeshangti.com/artwork-item/live-your-fking-best-life/" target="_blank" rel="noopener">Philippe Shangti</a></p>
-            <p>link site: <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink by Seth Cottle</a></p>
+        <h1>credits</h1>
 
-      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
-      <footer>
-        <a rel="me" href="https://mastodon.social/@borklefish"></a>
-      </footer>
+        <section aria-labelledby="website-heading">
+          <h2 id="website-heading">website</h2>
+          <p>Self hosting a fork of <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink by Seth Cottle</a>.</p>
+        </section>
 
+        <section aria-labelledby="pfp-heading">
+          <h2 id="pfp-heading">profile pic</h2>
+          <p>I'm currently using a photo of a frog wizard by <a href="https://x.com/the_frog_mage/status/1944577480385601543/" target="_blank" rel="noopener">@the_frog_mage</a> on Twitter.</p>
+        </section>
+
+        <section aria-labelledby="banner-heading">
+          <h2 id="banner-heading">banner image</h2>
+          <p>An art piece called <a href="https://www.philippeshangti.com/artwork-item/live-your-fking-best-life/" target="_blank" rel="noopener">'Live your F**cking Best Life' by Philippe Shangti</a></p>
+        </section>
+
+        <footer>
+          <a rel="me" href="https://mastodon.social/@borklefish"></a>
+        </footer>
+      </div>
     </div>
-  </div>
 
-</body>
+  </body>
 
 </html>
