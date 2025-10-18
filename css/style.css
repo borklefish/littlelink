@@ -220,6 +220,10 @@ a:hover {
 	flex-shrink:0;
 }
 
+.filter-dark{
+    filter: brightness(0) saturate(100%) invert(5%) sepia(7%) saturate(4197%) hue-rotate(273deg) brightness(96%) contrast(94%);
+}
+
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
