@@ -270,7 +270,7 @@ a:hover {
 	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
-	color:#4899F7;
+	color:#CCAB84;
 }
 :root.theme-dark a:not(.button):hover {
 	color:#7AB8FF;
