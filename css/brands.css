@@ -9,7 +9,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Only include brand-specific button styling here */
 .button,button {
-  color:var(--button-text,#000000);
+  color:var(--button-text,#1e1018);
   background-color:var(--button-background,transparent);
 	border:var(--button-border,none);
 	transition:filter 0.2s ease,transform 0.2s ease;
@@ -33,8 +33,8 @@
 
 /* Default */
 .button.button-default {
-	--button-text:#1E1018;
-	--button-background:#628F76;
+	--button-text:#1e1018;
+	--button-background:#628f76;
 }
 
 /* Amazon */
