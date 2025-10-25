@@ -5,7 +5,9 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Trade+Winds&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Shrikhand&family=Trade+Winds&family=UnifrakturCook:wght@700&display=swap');
+</style>
 
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -80,6 +82,7 @@
   h1 {
 	margin:0 0 0.5rem 0;
 	font-size:3rem;         		/* 48px */
+	font-family:"Shrikhand","Open Sans",system-ui;
     font-weight:800;
 	line-height:1;
 	letter-spacing:0;
@@ -325,11 +328,13 @@ section {
 	text-align:left;
 }
 h2 {
+	font-family:"Shrikhand","Open Sans",system-ui;
 	font-size:var(--scale-3);
 	font-weight:700;
 	margin-bottom:var(--spacing-m);
 }
 h3 {
+	font-family:"Shrikhand","Open Sans",system-ui;
 	font-size:var(--scale-2);
 	font-weight:600;
 	margin:var(--spacing-l) 0 var(--spacing-s) 0;
