@@ -5,9 +5,7 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Shrikhand&family=Trade+Winds&family=UnifrakturCook:wght@700&display=swap');
-</style>
 
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -83,7 +81,7 @@
 	margin:0 0 0.5rem 0;
 	font-size:3rem;         		/* 48px */
 	font-family:"Shrikhand","Open Sans",system-ui;
-    font-weight:400;
+    font-weight:800;
 	line-height:1;
 	letter-spacing:0;
 	word-wrap:break-word;
