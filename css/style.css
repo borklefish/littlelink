@@ -229,6 +229,13 @@ a:hover {
 	filter: brightness(0) saturate(100%) invert(5%) sepia(56%) saturate(526%) hue-rotate(273deg) brightness(96%) contrast(96%);
 }
 
+/* Table
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
