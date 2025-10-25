@@ -236,6 +236,11 @@ table, th, td {
 	border-collapse: collapse;
 }
 
+th {
+	background-color: #ffffff;
+	color: #1e1018;
+}
+
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
