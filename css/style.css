@@ -232,7 +232,7 @@ a:hover {
 /* Table
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table {
-  border-radius: 0.5rem;
+  border-radius: 10px;
 }
 
 table, th, td {
