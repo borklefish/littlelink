@@ -231,10 +231,6 @@ a:hover {
 
 /* Table
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-table {
-  border-radius: 10px;
-}
-
 table, th, td {
 	border: 1px solid white;
 	border-collapse: collapse;
