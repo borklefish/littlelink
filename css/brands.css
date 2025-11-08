@@ -37,6 +37,12 @@
 	--button-background:#628f76;
 }
 
+/* Invisible */
+.button.button-invisible {
+	--button-text:#ffffff;
+	--button-background:#1e1018; /* Matches page background colour. */
+}
+
 /* Amazon */
 .button-amazon {
 	--button-text:#000000;
