@@ -43,6 +43,10 @@
 	--button-background:#1e1018; /* Matches page background colour. */
 }
 
+.button.button-invisible:hover {
+	--button-text:#ff0000;
+}
+
 /* Amazon */
 .button-amazon {
 	--button-text:#000000;
