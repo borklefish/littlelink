@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 
-<!--
-  To change the theme, change the class on the html tag below to one of:
-  - theme-auto: Automatically switches based on user's system preferences
-  - theme-light: Forces light theme
-  - theme-dark: Forces dark theme
--->
-
-<html class="theme-dark" lang="en"> <!-- Update`class="theme-auto" with your preference -->
+<html class="theme-dark" lang="en"> <!-- theme-dark enforces dark mode -->
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <!-- Page Title -->
     <title>borklefish 🧽</title>
-    <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
 
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/avatar.png">
+
+    <!-- Meta Description -->
     <meta name="description" content=".">
 
     <!-- Keywords -->
     <meta name="keywords" content="borklefish">
 
-    <!-- Canonical URL - Helps prevent duplicate content issues -->
+    <!-- Canonical URL -->
     <meta rel="canonical" href="https://borklefish.com">
 
     <!-- Author Information -->
@@ -36,37 +31,27 @@
     <link rel="stylesheet" href="css/brands-extended.css">
     <link rel="stylesheet" href="css/sensitive-content.css">
 
-    <!-- LittleLink Extended Stylesheet (Optional) -->
-    <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
-    <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
-         Remove comments if you've added LittleLink Extended dependencies -->
-
   </head>
 
 <body>
 
     <div class="container">
         <div class="column">
-
-            <!--
-              By default, the Avatar is rounded. Use the following:
+            <!-- Avatar -->
+            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="Borklefish">
+            <!-- class guide:
               - avatar--rounded: Automatically rounds the image
               - avatar--soft: Slightly rounds the image
               - avatar--none: Removes any rounding
-
-              Be sure to replace the src with your own image path and update the alt text
             -->
-            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="Borklefish">
 
-            <!-- Replace with your name or brand -->
             <h1>
-              <div>Borklefish 🧽</div>
+              <div>Borklefish 🧽</div> <!-- On-Page Title -->
             </h1>
 
-            <!-- Add a short description about yourself or your brand -->
-            <p>am phrog :)</p>
+            <p>am phrog :)</p> <!-- Bio -->
 
-            <!-- All your buttons go here -->
+            <!-- Buttons -->
             <div class="button-stack" role="navigation">
 
               <!-- X / Twitter -->
@@ -74,6 +59,9 @@
 
               <!-- Bluesky -->
               <a class="button button-default" href="https://bsky.app/profile/borklefish.com" target="_blank" rel="noopener" role="button"><img class="icon-brown" aria-hidden="true" src="images/icons/bluesky.svg" alt="🦋">Bluesky</a>
+
+              <!-- Bluesky -->
+              <a class="button button-bluesky" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
 
               <!-- Mastodon -->
               <a class="button button-default" href="https://mastodon.social/@borklefish" target="_blank" rel="noopener" role="button"><img class="icon-brown" aria-hidden="true" src="images/icons/mastodon-white.svg" alt="🐘">Mastodon</a>
@@ -88,10 +76,9 @@
               
       </div>
 
-      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
-        <a href="/surprise" rel="noopener">click here for a surprise...</a
-        <a rel="me" href="https://mastodon.social/@borklefish"></a>
+        <a href="/surprise" rel="noopener">click here for a surprise...</a> <!-- a surprise, no spoilers! -->
+        <a rel="me" href="https://mastodon.social/@borklefish"></a> <!-- Mastodon link verification -->
       </footer>
 
     </div>
