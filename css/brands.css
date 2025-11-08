@@ -19,7 +19,6 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button:hover,button:hover {
 	filter:brightness(90%);
-	transform:translateY(-1px);
 }
 
 /* Button Icons
@@ -44,7 +43,7 @@
 /* Invisible */
 .button.button-invisible {
 	--button-text:#ffffff;
-	--button-background:#1e1018; /* Matches page background colour. */
+	--button-background:#transparent;
 }
 
 .button.button-invisible:hover {
