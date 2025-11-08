@@ -37,6 +37,10 @@
 	--button-background:#628f76;
 }
 
+.button.button-default:hover {
+	--button-background:#ccab84;
+}
+
 /* Invisible */
 .button.button-invisible {
 	--button-text:#ffffff;
@@ -44,7 +48,7 @@
 }
 
 .button.button-invisible:hover {
-	--button-text:#ff0000;
+	filter:brightness(100%);
 }
 
 /* Amazon */
