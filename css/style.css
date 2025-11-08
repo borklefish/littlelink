@@ -1,11 +1,8 @@
-/*
-* LittleLink
-* https://littlelink.io
-* Free to use under the MIT license
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Shrikhand&family=Trade+Winds&family=UnifrakturCook:wght@700&display=swap');
+/* Font Imports
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap'); /* Main Site Font: Atkinson Hyperlegible Next */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap'); /* Borklefish title: Shrikhand */
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap'); /* "My Head Fell Off" Playlist Title: Trade Winds */
 
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
