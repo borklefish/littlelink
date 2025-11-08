@@ -67,8 +67,7 @@
   body {
 	margin:0;
 	padding:0;
-	background-image: url("https://i.pinimg.com/736x/22/fa/7a/22fa7a01e537300861df43f8fb4f4805.jpg");
-	background-repeat: repeat;
+	background-color:#1e1018;
 	color:#ffffff;
 	font-family:"Atkinson Hyperlegible Next",system-ui;
 	font-size:1.125rem;     				/* 18px */
