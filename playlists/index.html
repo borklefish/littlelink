@@ -1,84 +1,41 @@
 <!DOCTYPE html>
-
-<!--
-  To change the theme, change the class on the html tag below to one of:
-  - theme-auto: Automatically switches based on user's system preferences
-  - theme-light: Forces light theme
-  - theme-dark: Forces dark theme
--->
-
-<html class="theme-dark" lang="en"> <!-- Update`class="theme-auto" with your preference -->
-
+<html class="theme-dark" lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
     <title>playlists | borklefish 🧽</title>
-    <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
-
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <link rel="icon" type="image/x-icon" href="/images/avatar.png">
     <meta name="description" content=".">
-
-    <!-- Keywords -->
     <meta name="keywords" content="borklefish">
-
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/brands.css">
     <link rel="stylesheet" href="/css/brands-extended.css">
     <link rel="stylesheet" href="/css/sensitive-content.css">
-
   </head>
-
-<body>
-
+  <body>
     <div class="container">
-        <div class="column">
-
-            <!--
-              By default, the Avatar is rounded. Use the following:
-              - avatar--rounded: Automatically rounds the image
-              - avatar--soft: Slightly rounds the image
-              - avatar--none: Removes any rounding
-
-              Be sure to replace the src with your own image path and update the alt text
-            -->
-            <img class="avatar avatar--rounded" src="/images/avatar.png" srcset="/images/avatar@2x.png 2x" alt="Borklefish">
-
-            <!-- Replace with your name or brand -->
-            <h1>
-              <div>Borklefish 🧽</div>
-            </h1>
-
-          <nav role="navigation">
+      <div class="column">
+        <img class="avatar avatar--rounded" src="/images/avatar.png" srcset="/images/avatar@2x.png 2x" alt="Borklefish">
+        <h1>
+          <div>Borklefish 🧽</div>
+        </h1>
+        <nav role="navigation">
           <a href="/" aria-label="Back to homepage">← back</a>
         </nav>
-
-          <h2 style="font-size:300%;">PLAYLISTS</h2>
-          
-            <!-- All your buttons go here -->
-            <div class="button-stack" role="navigation">
-
-              <!-- My Head Fell Off -->
-              <a class="button button-default" href="/playlists/my-head-fell-off" rel="noopener" role="button" style="font-family:'Trade Winds', 'Atkinson Hyperlegible Next'">My Head Fell Off</a>
-
-              <!-- Blood on my Collar -->
-              <a class="button button-default" href="/playlists/blood-on-my-collar" rel="noopener" role="button" style="font-family:'UnifrakturCook', 'Atkinson Hyperlegible Next'">Blood on my Collar</a>
-
-              <!-- More coming soon -->
-              <a class="button button-invisible" href="#" rel="noopener" role="button" style="font-weight:400;"><i>more coming soon...</i></a>
-
+        <h2 style="font-size:300%;">PLAYLISTS</h2>
+        <div class="button-stack" role="navigation">
+          <!-- My Head Fell Off -->
+          <a class="button button-default" href="/playlists/my-head-fell-off" rel="noopener" role="button" style="font-family:'Trade Winds', 'Atkinson Hyperlegible Next'">My Head Fell Off</a>
+          <!-- Blood on my Collar -->
+          <a class="button button-default" href="/playlists/blood-on-my-collar" rel="noopener" role="button" style="font-family:'UnifrakturCook', 'Atkinson Hyperlegible Next'">Blood on my Collar</a>
+          <!-- More coming soon -->
+          <a class="button button-invisible" href="#" rel="noopener" role="button" style="font-weight:400;"><i>more coming soon...</i></a>
+        </div>
+        <footer>
+          <a rel="me" href="https://mastodon.social/@borklefish"></a>
+        </footer>
       </div>
-
-      <footer>
-        <a rel="me" href="https://mastodon.social/@borklefish"></a>
-      </footer>
-
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
