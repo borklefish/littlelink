@@ -91,18 +91,6 @@
 	margin:0 0 2rem 0;
 }
 
-.bingbong {
-  position: relative;
-  text-align: center;
-}
-
-.emoji {
-  position: absolute;
-  right: 0;   /* controls placement */
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Base size - 16px browser default */
