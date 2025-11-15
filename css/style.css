@@ -243,11 +243,17 @@ th {
 td.navtable {
 	background-color: #628f76;
 	color: #1e1018;
+	border-radius: 10px;
+	border: 1px;
+	border-color: #628f76;
 }
 
 td.navtable:hover {
 	background-color: #ccab84;
 	color: #1e1018;
+	border-radius: 10px;
+	border: 1px;
+	border-color: #ccab84;
 }
 
 /* Avatar
