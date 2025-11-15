@@ -240,6 +240,16 @@ th {
 	color: #1e1018;
 }
 
+td.navtable {
+	background-color: #628f76;
+	color: #1e1018;
+}
+
+td.navtable:hover {
+	background-color: #ccab84;
+	color: #1e1018;
+}
+
 /* Avatar
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .avatar {
