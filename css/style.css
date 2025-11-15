@@ -186,6 +186,16 @@ a:hover {
 	color:#ccab84;
 }
 
+a.navtablelink {
+	color: #1e1018;
+	text-decoration: none;
+}
+
+a.navtablelink:hover {
+	color: #1e1018;
+	text-decoration: none;
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,button {
