@@ -186,16 +186,6 @@ a:hover {
 	color:#ccab84;
 }
 
-a.navtablelink {
-	color: #1e1018;
-	text-decoration: none;
-}
-
-a.navtablelink:hover {
-	color: #1e1018;
-	text-decoration: none;
-}
-
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,button {
@@ -248,22 +238,6 @@ table, th, td {
 th {
 	background-color: #ffffff;
 	color: #1e1018;
-}
-
-td.navtable {
-	background-color: #628f76;
-	color: #1e1018;
-	border-radius: 10px;
-	border: 1px;
-	border-color: #628f76;
-}
-
-td.navtable:hover {
-	background-color: #ccab84;
-	color: #1e1018;
-	border-radius: 10px;
-	border: 1px;
-	border-color: #ccab84;
 }
 
 /* Avatar
